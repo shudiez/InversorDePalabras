@@ -1,3 +1,9 @@
+/*
+ * Creado por Yesica V. Diez
+ * Version 1.0
+ * Creado en la siguiente fecha: 24/07/2021
+*/
+
 package inversordepalabras;
 
 import java.util.Scanner;
@@ -14,6 +20,7 @@ public class InversorDePalabras {
         palabra = entrada.nextLine();
 
         //Este metodo lo que hace es obtener la longitud de la cadena de palabras
+        //Cuento los caracteres
         longitudPalabra = palabra.length();
 
         //Mientras sea diferente de cero que se siga cumpliendo la condicion
